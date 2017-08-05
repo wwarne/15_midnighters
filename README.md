@@ -5,7 +5,8 @@ Simple program for counting people, who submitted their task on [Devman.org](htt
 Submitters after 5 a.m. I consider early birds. :)
 
 ## How to use
-- Just run `python3 seek_dev_nighters.py`
+- Install requirements by running `pip install -r requirements.txt`
+- Then run `python3 seek_dev_nighters.py`
 Output will be simular to:
 
 ```
