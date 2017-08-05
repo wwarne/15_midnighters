@@ -35,6 +35,9 @@ if __name__ == '__main__':
     midnighters = get_midnighters()
     print('============Midnighters of Devman.org============')
     print('Total amount of midnighters: {}'.format(len(midnighters)))
-    print('The names of these slepless people:')
-    for midnighter in midnighters:
-        print(midnighter)
+    if midnighters:
+        print('The names of these slepless people:')
+        for midnighter in midnighters:
+            print(midnighter)
+    else:
+        print('WOW! Everyone was asleep. It\'s very unusual but could happen.')
